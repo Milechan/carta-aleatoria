@@ -1,9 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
+  font-family: "Libre Baskerville";
   background-color: green;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .carta {
   background-color: white;
   width: 200px;
@@ -18,27 +23,33 @@ body {
   border: 2px solid black;
   border-radius: 15px;
 }
+
 .center {
   font-size: 75px;
   font-weight: bold;
   color: black;
 }
+
 .corner {
   font-size: 65px;
   font-weight: bold;
   color: red;
 }
+
 .top {
   margin-right: 130px;
   margin-top: -20px;
 }
+
 .bottom {
   margin-left: 130px;
 }
+
 .cuerpo {
   display: flex;
   flex-direction: column;
 }
+
 #botonsito {
   margin-top: 10px;
   width: 200px;
