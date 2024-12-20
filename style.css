@@ -1,0 +1,45 @@
+body {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carta {
+  background-color: white;
+  width: 200px;
+  height: 285px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+.center {
+  font-size: 75px;
+  font-weight: bold;
+  color: black;
+}
+.corner {
+  font-size: 65px;
+  font-weight: bold;
+  color: red;
+}
+.top {
+  margin-right: 130px;
+  margin-top: -20px;
+}
+.bottom {
+  margin-left: 130px;
+}
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+}
+#botonsito {
+  margin-top: 10px;
+  width: 200px;
+}
